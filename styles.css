@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #4793AF;
+    text-align: center;
+}
+h1{
+    padding-top: 20px;
+    font-size: 7vmin;
+    font-weight: 900;
+    color: white;
+}
+.container{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 50vmin;
+    width: 50vmin;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.75vmin;
+
+}
+.box{
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 3.5vmin;
+    border: none;
+    background-color: #FFC470;
+    color: #8B322C;
+    font-size: 10vmin;
+    font-weight: 600;
+    cursor: pointer;
+}
+.box:active{
+    color: #63231f;
+    background-color: #eeb669;
+}
+#reset-btn, #playAgain{
+    padding: 10px 32px;
+    font-size: 4vmin;
+    font-weight: 900;
+    color: #8B322C;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+#reset-btn:active{
+    color: #63231f;
+    background-color: #eeb669;
+}
+#playAgain:active{
+    color: #63231f;
+    background-color: #eeb669;
+}
+
+
+
+.modal{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.hide{
+    display: none;
+}
